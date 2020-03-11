@@ -28,6 +28,7 @@ public class Main {
         for(Palavra p : t.getTexto()){
             System.out.println(p.getPalavra() + "->" + p.getClasseGramatical());
         }
+        System.out.println(t.getNumeroPalavras());
 
     }
 }
